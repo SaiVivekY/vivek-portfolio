@@ -8,40 +8,66 @@
 </head>
 <body>
   <header class="hero">
-    <h1>Hey — I'm Vivek.</h1>
-    <p>I’m a B.Tech 1st year student at Symbiosis Institute of Technology.  
-       I love learning web development and building cool projects.</p>
-    <img src="profile.jpg" alt="Vivek photo" id="profile-photo">
+    <h1>Hey — I'm Vivek 👋</h1>
+    <p>I’m a B.Tech 1st year student at <strong>Symbiosis Institute of Technology</strong>.  
+       I’m passionate about web development, design, and learning new technologies.</p>
+
+    <!-- 🖼️ Your Photo -->
+    <img src="profile.jpg" alt="Vivek photo" id="profile-photo" width="200" height="200">
 
     <div class="buttons">
-      <a href="#projects">See my projects</a>
-      <a href="#contact">Contact me</a>
+      <a href="#projects">See my Projects</a>
+      <a href="#contact">Contact Me</a>
     </div>
   </header>
 
+  <!-- 💻 Projects Section -->
   <section id="projects">
-    <h2>Projects</h2>
+    <h2>My Projects</h2>
 
     <div class="project">
-      <h3>Smart ToDo App</h3>
-      <p>A simple to-do app made using HTML, CSS, and JavaScript.</p>
+      <h3>✅ Smart ToDo App</h3>
+      <p>A simple and responsive To-Do list web app where users can add, edit, and delete daily tasks.  
+         Built using HTML, CSS, and JavaScript with local storage support.</p>
+      <p><strong>Tech Used:</strong> HTML, CSS, JavaScript</p>
+      <a href="https://github.com/yourusername/todo-app" target="_blank">View on GitHub</a>
     </div>
 
     <div class="project">
-      <h3>Personal Portfolio</h3>
-      <p>This website! Built using HTML, CSS, and a bit of JS.</p>
+      <h3>🌐 Personal Portfolio</h3>
+      <p>This is my personal portfolio website that showcases my skills, projects, and contact info.  
+         Designed and coded by me to learn and explore front-end web development.</p>
+      <p><strong>Tech Used:</strong> HTML, CSS, JS</p>
+      <a href="https://github.com/yourusername/vivek-portfolio" target="_blank">View on GitHub</a>
     </div>
   </section>
 
+  <!-- ⚙️ Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Git & GitHub</li>
+      <li>React (learning)</li>
+      <li>Node.js (learning)</li>
+    </ul>
+  </section>
+
+  <!-- ✉️ Contact Section -->
   <section id="contact">
-    <h2>Contact</h2>
-    <p>Email me at: <a href="mailto:vivek@example.com">vivek@example.com</a></p>
+    <h2>Contact Me</h2>
+    <p>If you’d like to collaborate or just say hi, feel free to reach out!</p>
+    <p>Email: <a href="mailto:vivek@example.com">vivek@example.com</a></p>
   </section>
 
+  <!-- 👣 Footer -->
   <footer>
-    <p>© <span id="year"></span> Vivek. All rights reserved.</p>
+    <p>© <span id="year"></span> Vivek — All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
