@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vivek — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Hey — I'm Vivek.</h1>
+    <p>I’m a B.Tech 1st year student at Symbiosis Institute of Technology.  
+       I love learning web development and building cool projects.</p>
+    <img src="profile.jpg" alt="Vivek photo" id="profile-photo">
+
+    <div class="buttons">
+      <a href="#projects">See my projects</a>
+      <a href="#contact">Contact me</a>
+    </div>
+  </header>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Smart ToDo App</h3>
+      <p>A simple to-do app made using HTML, CSS, and JavaScript.</p>
+    </div>
+
+    <div class="project">
+      <h3>Personal Portfolio</h3>
+      <p>This website! Built using HTML, CSS, and a bit of JS.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email me at: <a href="mailto:vivek@example.com">vivek@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Vivek. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
